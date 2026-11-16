@@ -16,10 +16,10 @@ This repo has only the simulator. **You need the robot code already** (the team'
 Needs: [Android Studio](https://developer.android.com/studio) and
 [AdvantageScope 26+](https://github.com/Mechanical-Advantage/AdvantageScope/releases) (open it once after installing).
 
-Open **PowerShell** and run:
+Press **Win + R**, or open **PowerShell** / **Command Prompt**, and run:
 
-```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/guyka2212/Biobuzz-18833-Sim/main/install.ps1 | iex"
+```
+powershell -ExecutionPolicy Bypass -Command "iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/guyka2212/Biobuzz-18833-Sim/main/install.ps1'))"
 ```
 
 It finds your robot project in `AndroidStudioProjects` (or asks for the folder), then:
