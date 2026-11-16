@@ -3,8 +3,8 @@
 # shortcut to an EXISTING copy of the robot code. It never changes the robot code itself
 # (TeamCode/src/main is not touched).
 #
-# Run (Win+R, Command Prompt or PowerShell):
-#   powershell -ExecutionPolicy Bypass -Command "iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/guyka2212/Biobuzz-18833-Sim/main/install.ps1'))"
+# Run in Command Prompt (cmd):
+#   curl -sL https://raw.githubusercontent.com/guyka2212/Biobuzz-18833-Sim/main/install.ps1 -o "%TEMP%\robot-sim-install.ps1" && powershell -ExecutionPolicy Bypass -File "%TEMP%\robot-sim-install.ps1"
 #
 # Optional settings (environment variables, mainly for testing):
 #   SIM_PROJECT      robot project folder (skips the question)
